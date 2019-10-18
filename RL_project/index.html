@@ -62,7 +62,7 @@ where <span class="MathJax" id="MathJax-Element-187-Frame" role="textbox" aria-r
 <h4>2.2.2 Critic Network</h4>
 <p>The critic network shares the similar architecture with the actor network with the fully connected layers and the ReLU activations. However, depending on the environment, discrete or continuous action space, the final output is distinct. For discrete action space, the <span class="MathJax" id="MathJax-Element-188-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-3429" style="width: 1.516em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.351em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.682em, 1000em, 2.921em, -0.488em); top: -2.534em; left: 0em;"><span class="mrow" id="MathJax-Span-3430"><span class="mi" id="MathJax-Span-3431" style="font-family: STIXGeneral-Regular;">log</span></span><span style="display: inline-block; width: 0px; height: 2.534em;"></span></span></span><span style="border-left-width: 0em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.125em; vertical-align: -0.304em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-188">\log</script> Softmax is used to compute the distribution of the available discrete actions. For continuous action space, we instead output a mean and a standard deviation for the univariate Gaussian distribution, which we later use to sample continuous actions.</p>
 <h2>3. Experiments</h2>
-<p>All our code can be see in Github.</p>
+<p>All our codes are available on Github.</p>
 <blockquote>
 <p><a href="https://github.com/vincentwen1995/rl-reprod">Reinforcement Learning Reproducibility Lab</a></p>
 </blockquote>
